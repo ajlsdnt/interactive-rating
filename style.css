@@ -58,6 +58,12 @@ body {
     padding:1.3rem;
     color: white;
 }
+    @media (max-width: 640px) {
+        .circle {
+            width: 20px;
+            height: 20px;
+        }
+    }
 
 .star {
     display: inline-flex;
@@ -136,4 +142,11 @@ footer{
 }
 
 .attribution { font-size: 11px; text-align: center; }
+
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 640px) {
+    #main-box {
+        width: 50%;
+    }
+}
